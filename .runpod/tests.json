@@ -1,1 +1,17 @@
-{}
+{
+  "tests": [
+    {
+      "name": "health_check_root",
+      "input": {
+        "path": "/",
+        "method": "GET",
+        "expectStatus": 200
+      },
+      "timeout": 15000
+    }
+  ],
+  "config": {
+    "gpuCount": 1,
+    "allowedCudaVersions": ["12.8", "12.7"]
+  }
+}
