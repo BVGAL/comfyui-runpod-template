@@ -1,0 +1,4 @@
+name: comfyui-runpod
+entrypoint: /entrypoint.sh
+ports:
+  - 8188
