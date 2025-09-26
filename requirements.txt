@@ -1,0 +1,1 @@
+# Per ora lasciamo vuoto, comfyUI installerà i suoi requirements
