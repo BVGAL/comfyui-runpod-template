@@ -9,9 +9,8 @@ Questo template lancia un’istanza RunPod con:
 
 ## Uso
 
-1. Clona la repo
-2. Costruisci e pubblica l’immagine Docker:
+### 1. Costruzione e pubblicazione immagine Docker
+Questa repo è configurata con **GitHub Actions**: ogni push su `main` builda e pubblica automaticamente l’immagine Docker su GitHub Container Registry.
 
-```bash
-docker build -t ghcr.io/<username>/comfyui-runpod:latest .
-docker push ghcr.io/<username>/comfyui-runpod:latest
+Immagine disponibile su:
+
