@@ -1,1 +1,43 @@
-{}
+{
+  "title": "ComfyUI RunPod Template",
+  "description": "ComfyUI esposto su porta 8188, auto-update di ComfyUI e ComfyUI-Manager ad ogni avvio. Basato su CUDA 12.8+.",
+  "type": "serverless",
+  "category": "image",
+  "iconUrl": "",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20,
+    "gpuCount": 1,
+    "allowedCudaVersions": ["12.8", "12.7", "12.6"],
+    "env": [
+      {
+        "name": "COMFY_PORT",
+        "value": "8188",
+        "description": "Porta HTTP di ComfyUI",
+        "required": false
+      },
+      {
+        "name": "COMFY_ARGS",
+        "value": "--listen 0.0.0.0 --port 8188",
+        "description": "Argomenti extra passati a ComfyUI",
+        "required": false
+      },
+      {
+        "name": "AUTO_UPDATE",
+        "value": "1",
+        "description": "Se 1, aggiorna ComfyUI e ComfyUI-Manager ad ogni avvio",
+        "required": false
+      }
+    ],
+    "presets": [
+      {
+        "name": "Default (auto-update)",
+        "env": {
+          "AUTO_UPDATE": "1",
+          "COMFY_PORT": "8188",
+          "COMFY_ARGS": "--listen 0.0.0.0 --port 8188"
+        }
+      }
+    ]
+  }
+}
