@@ -1,14 +1,1 @@
-{
-  "title": "ComfyUI RunPod Template",
-  "description": "Run ComfyUI remotely with auto-updates. CUDA 12.8+, port 8188.",
-  "type": "serverless",
-  "category": "image",
-  "config": {
-    "runsOn": "GPU",
-    "containerDiskInGb": 20,
-    "gpuCount": 1,
-    "allowedCudaVersions": ["12.8", "12.7", "12.6"],
-    "env": [],
-    "presets": []
-  }
-}
+{}

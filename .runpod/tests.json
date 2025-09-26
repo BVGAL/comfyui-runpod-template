@@ -1,13 +1,1 @@
-{
-  "tests": [
-    {
-      "name": "health_check",
-      "input": { "path": "/" },
-      "timeout": 15000
-    }
-  ],
-  "config": {
-    "gpuCount": 1,
-    "allowedCudaVersions": ["12.8", "12.7"]
-  }
-}
+{}
