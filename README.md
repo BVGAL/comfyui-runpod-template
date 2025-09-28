@@ -1,5 +1,5 @@
 # ComfyUI RunPod Template
-
+[![Runpod](https://api.runpod.io/badge/BVGAL/comfyui-runpod-template)](https://console.runpod.io/hub/BVGAL/comfyui-runpod-template)
 This template launches a RunPod instance with:
 
 - CUDA 12.8 (runtime)
