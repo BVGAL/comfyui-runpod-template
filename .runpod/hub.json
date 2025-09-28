@@ -11,24 +11,24 @@
     "allowedCudaVersions": ["12.8", "12.7", "12.6"],
     "env": [
       {
-        "name": "COMFY_PORT",
+        "key": "COMFY_PORT",
         "value": "8188",
-        "description": "Porta HTTP di ComfyUI",
+        "description": "HTTP port for ComfyUI",
         "required": false
       },
       {
-        "name": "COMFY_ARGS",
+        "key": "COMFY_ARGS",
         "value": "--listen 0.0.0.0 --port 8188",
-        "description": "Argomenti extra passati a ComfyUI",
+        "description": "Extra arguments passed to ComfyUI",
         "required": false
       },
       {
-        "name": "AUTO_UPDATE",
+        "key": "AUTO_UPDATE",
         "value": "1",
-        "description": "Se 1, aggiorna ComfyUI e ComfyUI-Manager ad ogni avvio",
+        "description": "If 1, update ComfyUI and ComfyUI-Manager at startup",
         "required": false
       }
-    ],
+    ]
     "presets": [
       {
         "name": "Default (auto-update)",
