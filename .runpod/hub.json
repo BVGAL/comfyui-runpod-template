@@ -1,6 +1,6 @@
 {
   "title": "ComfyUI RunPod Template",
-  "description": "ComfyUI esposto su porta 8188, auto-update di ComfyUI e ComfyUI-Manager ad ogni avvio. Basato su CUDA 12.8+.",
+  "description": "ComfyUI exposed on port 8188, auto-update of ComfyUI and ComfyUI-Manager at every startup. Based on CUDA 12.8+.",
   "type": "serverless",
   "category": "image",
   "iconUrl": "",
@@ -28,7 +28,7 @@
         "description": "If 1, update ComfyUI and ComfyUI-Manager at startup",
         "required": false
       }
-    ]
+    ],
     "presets": [
       {
         "name": "Default (auto-update)",
