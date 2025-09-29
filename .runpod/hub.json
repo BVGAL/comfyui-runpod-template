@@ -8,7 +8,7 @@
     "runsOn": "GPU",
     "containerDiskInGb": 20,
     "gpuCount": 1,
-    "allowedCudaVersions": ["12.4", "12.5", "12.6", "12.7"]
+    "allowedCudaVersions": ["12.4", "12.5", "12.6", "12.7"],
     "presets": [
       {
         "name": "Default",
